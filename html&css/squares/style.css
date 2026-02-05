@@ -1,0 +1,25 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+}
+div {
+  height: 30%;
+  width: 30%;
+}
+
+.square1 {
+  background-color: aqua;
+}
+.square2 {
+  background-color: blue;
+}
+.square3 {
+  /* display: flex; */
+  background-color: tomato;
+}
