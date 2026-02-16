@@ -8,3 +8,10 @@ body {
   height: 100%;
   width: 100%;
 }
+.colorFont {
+  color: blue;
+  text-align: center;
+}
+h2 {
+  background-color: aqua;
+}
