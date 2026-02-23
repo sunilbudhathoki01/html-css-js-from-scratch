@@ -14,6 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .shape {
   height: 200px;
@@ -23,4 +24,31 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+h1 {
+  font-weight: lighter;
+}
+#square:hover {
+  background-color: red;
+}
+#circle:hover {
+  background-color: green;
+}
+#diamond:hover {
+  background-color: blue;
+}
+
+#circle {
+  border-radius: 50%;
+}
+
+#diamond {
+  margin-top: 20%;
+  rotate: 45deg;
+  height: 141px;
+  width: 141px;
+  translate: 50px;
+}
+#go {
+  rotate: -45deg;
 }
