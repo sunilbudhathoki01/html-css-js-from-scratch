@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div>
+    <label for="">Language</label>
+    <select name="" id="language">
+        <option value="en">English</option>
+        <option value="ne">Nepali</option>
+        <option value="fr">French</option>
+    </select>
+ </div>
+
+ <div>
+    <label for="">Format</label>
+    <select name="" id="format">
+        <option value="application/json">Json</option>
+        <option value="text/plain">Text</option>
+    </select>
+ </div>
+
+ <div>
+    <label for="">Encoding</label>
+    <select name="" id="encoding">
+        <option value="gzip">gzip</option>
+        <option value="identity">Identity</option>
+    </select>
+ </div>
+ <!-- <br> -->
+ 
+<button id="fetchBtn">Fetch Resource</button>
+<h2>response</h2>
+<pre id="response"></pre>
+
+</body>
+</html>
